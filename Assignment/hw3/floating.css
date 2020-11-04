@@ -1,0 +1,49 @@
+.float_input {
+    height: 66px;
+    position: relative;
+}
+.float_input input {
+    position: absolute;
+    bottom: 0px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #202124;
+    font-size: 16px;
+    height: 58px;
+    padding: 13px 15px;
+    border-style: none;
+    border: 1px solid rgb(218,220,224);
+    display: block;
+    width: 100%;
+    outline: none;
+    transition: all 0.1s;
+}
+.float_input input:focus {
+    border: 2px solid rgb(29, 112, 225);
+    transition: all 0.1s;
+}
+.float_input label {
+    position: absolute;
+    left: 16px;
+    bottom: 18px;
+    font-size: 16px;
+    color: rgb(128, 134, 139);
+    background-color: white;
+    transition: all 0.1s;
+}
+.float_input input:valid + label {
+    color: rgb(128, 134, 139);
+    left: 12px;
+    transform-origin: left top;
+    transform: translate(0px, -20px) scale(0.8);
+    transition: all 0.1s;
+    padding: 5px;
+}
+.float_input input:focus + label {
+    color: rgb(29, 112, 225);
+    left: 12px;
+    transform-origin: left top;
+    transform: translate(0px, -20px) scale(0.8);
+    transition: all 0.1s;
+    padding: 5px;
+}

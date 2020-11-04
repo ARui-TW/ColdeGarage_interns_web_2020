@@ -1,0 +1,36 @@
+.dropbtn {
+    color: #202124;
+    float: left;
+    padding: 24px 0px 0px 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: white;
+    z-index: 1;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.dropdown-content a {
+    color: rgb(32,32,32);
+    font-size: 12px;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(238,238,238);
+    color: rgb(32,32,32);
+}
