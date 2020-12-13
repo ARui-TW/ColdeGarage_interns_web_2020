@@ -5,4 +5,4 @@ export default function() {
     el.textContent = _.join(['Module', '1'], ' ');
 }
 
-export var n = 1010;
+export var n = 10;
